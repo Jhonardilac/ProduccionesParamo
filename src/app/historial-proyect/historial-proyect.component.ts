@@ -9,7 +9,7 @@ import { HttpClient } from '@angular/common/http';
 })
 
 export class HistorialProyectComponent implements OnInit {
-  API = "http://localhost:4200/ProyectsHistory";
+  API = "http://localhost:3000/ProyectsHistory";
   columnas: string[] = ['Codigo', 'Nombre', 'Proyecto' , 'Fecha', 'EstadoInicial', 'EstadoFinal' ];
   actual:string="";
   datos: HistorialProyecto []=[];
